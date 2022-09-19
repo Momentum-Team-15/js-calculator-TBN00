@@ -1,0 +1,186 @@
+body{
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: 25%;
+    color: white;
+    gap: 1px;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    font-size: 50px;
+    font-family: sans-serif;
+    border: 10px solid black;
+}
+
+#clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 1;
+
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 2 / span 3;
+
+}
+
+#seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 1;
+
+}
+
+#eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 2;
+
+}
+
+#nine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 3;
+
+}
+
+#divide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #5D62D5;
+    grid-column: 4;
+
+}
+
+#four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 1;
+
+}
+
+#five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 2;
+
+}
+
+#six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 3;
+
+}
+
+#multiply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #5D62D5;
+    grid-column: 4;
+
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 1;
+
+}
+
+#two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 2;
+
+}
+
+#three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 3;
+
+}
+
+#subtract {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #5D62D5;
+    grid-column: 4;
+
+}
+
+#zero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 1;
+
+}
+
+#decimal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 2;
+
+}
+
+#equal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #353BD7;
+    grid-column: 3;
+
+}
+
+#addition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #5D62D5;
+    grid-column: 4;
+
+}
