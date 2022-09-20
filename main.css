@@ -2,7 +2,7 @@ body{
     background-color: lightslategray;
     display: flex;
     justify-content: center;
-
+    user-select: none;
 }
 
 
@@ -24,7 +24,7 @@ body{
 }
 
 .pressed{
-    background-color: #5D62D5;
+    background-color: #9EA1E8;
 }
 
 #clear {
@@ -36,7 +36,7 @@ body{
 
 }
 
-#input {
+#display {
     display: flex;
     justify-content: center;
     align-items: center;
