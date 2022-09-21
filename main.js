@@ -2,6 +2,7 @@
 
 const display = document.querySelector("#display")
 
+
 let squares = document.querySelectorAll(".square")
 for (let square of squares) {
     square.addEventListener("mousedown", (event) => {
@@ -21,5 +22,14 @@ for (let square of squares) {
         newElement.appendChild(text)
         display.appendChild(newElement)
     })
-
 }
+
+let equals = document.querySelector("#equal")
+    equals.addEventListener("click", (event) => {
+        display.innerText = eval(display.innerText);
+});
+
+let clear = document.querySelector("#clear")
+    clear.addEventListener("click", (event) => {
+        display.innerText = "";
+    });
