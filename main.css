@@ -42,6 +42,7 @@ body{
     align-items: center;
     grid-column: 2 / span 3;
     border: 1px solid black;
+    overflow-y:auto;
 
 }
 

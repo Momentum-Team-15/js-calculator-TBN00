@@ -16,11 +16,7 @@ for (let square of squares) {
 
     square.addEventListener("click", (event) => {
         console.log(square.innerText)
-
-        let newElement = document.createElement('div')
-        let text = document.createTextNode(square.innerText)
-        newElement.appendChild(text)
-        display.appendChild(newElement)
+        display.innerText += square.innerText;
     })
 }
 
