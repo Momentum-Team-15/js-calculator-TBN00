@@ -38,14 +38,6 @@ equals.addEventListener("click", (event) => {
 });
 
 let clear = document.querySelector("#clear")
-clear.addEventListener("mousedown", (event) => {
-    clear.classList.remove("blue");
-    clear.classList.add("pressed");
-});
-clear.addEventListener("mouseup", (event) => {
-    clear.classList.add("blue");
-    clear.classList.remove("pressed");
-});
 clear.addEventListener("click", (event) => {
     display.innerText = "";
 });
